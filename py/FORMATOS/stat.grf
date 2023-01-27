@@ -1,0 +1,52 @@
+#
+# DATOS y ETIQUETAS permanecen constantes hasta que alguna instruccion los 
+# cambie.
+#
+DATOS=stat
+ETIQUETAS=Comedor, Entrega, Para Llevar, Otros
+
+GRAF=1
+TITULO=Transacciones de Comida en # Transac.
+TPO=PIE
+LIMITES=COMIDA:,TOTAL
+DATOS1={ Comedor: -3, Entrega: -3, Llevar: -3, Otros: -3 }
+
+GRAF=2
+TITULO=Transacciones de Comida en pesos
+TPO=PIE
+LIMITES=COMIDA:,TOTAL
+DATOS1={ Comedor: -2, Entrega: -2, Llevar: -2, Otros:-2 }
+
+GRAF=3
+TITULO=Transacciones de Cena en # Transac.
+TPO=PIE
+LIMITES=CENA:,TOTAL
+DATOS1={ Comedor: -3, Entrega: -3, Llevar: -3, Otros:-3 }
+
+GRAF=4
+TITULO=Transacciones de Cena en pesos
+TPO=PIE
+ETIQUETAS=Comedor, Entrega, Para Llevar, Otros
+LIMITES=CENA:,TOTAL
+DATOS1={ Comedor: -3, Entrega: -3, Llevar: -3, Otros:-3 }
+
+GRAF=5
+TITULO=Transacciones Comida y Cena\n # Transac.
+TPO=PIE
+LIMITES=TOTAL:,TOTAL
+DATOS1={ Comedor: -3, Entrega: -3, Llevar: -3, Otros:-3 }
+
+GRAF=6
+TITULO=Transacciones Comida y Cena\n en pesos
+TPO=PIE
+LIMITES=TOTAL:,TOTAL
+DATOS1={ Comedor: -2, Entrega: -2, Llevar: -2, Otros:-2 }
+
+GRAF=7
+TITULO=Comparativo Comida y Cena\n en pesos
+TPO=3DBAR
+ETIQUETAS=Comedor, Entrega, Para Llevar, Otros 
+LIMITES=COMIDA:,TOTAL
+DATOS1={ Comedor: -2, Entrega: -2, Llevar: -2, Otros:-2 }
+LIMITES=CENA:,TOTAL
+DATOS2={ Comedor: -2, Entrega: -2, Llevar: -2, Otros:-2 }

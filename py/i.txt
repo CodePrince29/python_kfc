@@ -1,0 +1,18 @@
+   reps = new Array(16);
+
+   reps[ 0]=new Rep("I","Inventario Criticos","crit","D","0","/usr/bin/ph/phcritrp.S");
+   reps[ 1]=new Rep("I","Uso ideal","iuse","D","0","/usr/bin/ph/invpiuse.f");
+   reps[ 2]=new Rep("I","Conteo Masas","doughcnt","D","0","/usr/bin/ph/phdghcnt.S");
+   reps[ 3]=new Rep("I","Costo Prod.(Receta)","icost","D","0","/usr/bin/ph/icost.S");
+   reps[ 4]=new Rep("I","-Transferencias","tran","D","0","");
+   reps[ 5]=new Rep("I","Formulario Invent","iform","D","0","/usr/bin/ph/invptall.f");
+   reps[ 6]=new Rep("I","Inventario","inv","S","0","/usr/bin/ph/invsem.f");
+   reps[ 7]=new Rep("I","PCA","pca","S","0","/usr/bin/ph/pca.f");
+   reps[ 8]=new Rep("I","*Criticos semanal","scrit","S","0","");
+   reps[ 9]=new Rep("I","-Detalle inventario","idet","S","0","");
+   reps[10]=new Rep("I","*Trans. Semanal","stran","S","0","");
+   reps[11]=new Rep("I","-Costos Ameriserve","pfsc","S","0","");
+   reps[12]=new Rep("I","Inventario Periodo","pinv","S","0","/usr/bin/ph/invpwksh.S");
+   reps[13]=new Rep("I","*PCA Periodo","ppca","P","0","");
+   reps[14]=new Rep("I","*Criticos Periodo","pcrit","P","0","");
+   reps[15]=new Rep("I","*Trans. Periodo","ptran","P","0","");

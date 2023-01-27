@@ -1,0 +1,40 @@
+README
+---------
+
+Para poder mostrar los archivos con en excel o en starcalc es necesario
+transormar los reportes de un formato tipo texto a uno con campos delimitados
+por comas (csv)
+
+El programa excelclient.py recibe de la hoja HTML los nombres de los
+archivos a convertir y llama al programa servidor excelserver.py el cual
+transforma el archivo YY-MM-DD a YY-MM-DD.csv.
+
+fmt.py    Leer el archivo de formatos, debe existir uno para cada reporte
+scan.py   En base al formato divide al archivo YY-MM-DD en lineas y
+          estas en tokens
+
+unique.py Funciones para generar nombres unicos de archivos
+chart.py  Define clase Chart para poder graficar facilmente
+sales.py  Utiliza unique y chart para generar archivos de graficas
+graf.py   Se comunica con el CGI y llama a los programas correspondientes de
+          graficas.
+
+phdates.py   Permite convertir fechas, periodos, semanas.
+reportes.py  Genera archivos html a partir de los txt. Se apoya en phdates
+
+at2.py    Programa para formatear las tablas /tmp/REPT.htmap y construir
+          el sistema automaticamente.
+
+exists.py    # Checha la existencia de algun archivo
+generador.py # generador de reportes de sus y fms
+mapa.py      # lee la tabla de especificaciones de los reportes
+env.py       # pone el media ambiente a SUS o FMS
+
+excel.py    No usado
+algo.py     No usado
+b.py        No usado
+b1.py       No usado
+ccmd.py     No usado
+exe.py      No usado
+g_sales.py  No usado
+s1.py       No usado

@@ -1,0 +1,11 @@
+#for i in fcgeprnt    icost.s     invpaksh    invpiuse    invptall    invsugar    mmqsem.s    mquetzal.s  phasrp1.s   phaurp.s    phcanx.s    phcritrp    phcshrrp.s  phcstpr.s   phdayprt.s  phdghcnt.s  phdprp      phdvrp2     phgrrp      phmealrp    phmpcgen.s  phosum      phprodmx.s  phsasrvr.s  phsclrp     phtaxrp     phtblrp.s   phuntrp     phupgckrp   phwporst    prpptdpp    repcaja.s   roc.s       tkckkin     
+for i in roc.s uno dos
+do
+   find /usr/bin -name $i
+   if [ $? == 0 ]
+   then
+      a="ok"
+   else
+      echo "No se encontro $i "
+   fi
+done

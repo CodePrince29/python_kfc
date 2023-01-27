@@ -1,0 +1,122 @@
+
+                           110       - PH Tecamachalco     
+                       Reporte de Operaciones Consolidado
+
+                                                            Periodo 04 Semana 0
+                                                   Elaborado MAR-09/03/99 12:23
+-------------------------------------------------------------------------------
+
+ - VENTAS -
+
+	Venta Bruta P&L                    0.00
+	Venta Neta                         0.00
+	Ingresos Depositables              0.00
+	Depositos                          0.00
+	Deficits/Superavits                0.00
+	Planeado                       85789.00				-100.00 %
+	Ventas Comedor                     0.00				  0.00 %
+	Ventas Para Llevar                 0.00				  0.00 %
+	Ventas Ventana                     0.00				  0.00 %
+	Ventas Servi-Carro                 0.00				  0.00 %
+	Ventas Home Delivery               0.00				  0.00 %
+
+	Promociones y Descuentos           0.00				  0.00 %
+	Comida de Empleados                0.00				  0.00 %
+
+	Anticipos Recibidos                0.00
+	Anticipos Aplicados                0.00
+
+	Venta de Manteca Quemada           0.00
+
+
+
+ - ESTADISTICAS -
+
+	Tiempo Promedio en Unidad         92.00
+	Transacciones < 30 min             0.00				  0.00 %
+	Trans en Unidad < 10 min           0.00				  0.00 %
+	Transacciones                      0.00
+	Ticket Promedio                    0.00
+	Transacciones Planeadas         2198.00
+	Ticket Promedio Planeado           0.00
+
+	Transacciones Comedor              0.00				  0.00 %
+	Transacciones P/Llevar             0.00				  0.00 %
+	Transacciones Ventana              0.00				  0.00 %
+	Transacciones Servi-Carro          0.00				  0.00 %
+	Transacciones Entrega              0.00				  0.00 %
+
+
+
+ - MANO DE OBRA -
+
+	                          Horas      Costo     Productividad   Eficiencia
+	                         -------   ---------   -------------   ----------
+	Gerente                     0.00
+	Asistente de Gerente        0.00
+	Jefe de Turno               0.00
+
+	SubTotal Gerencia           0.00       0.00          0.00         0.00 %
+
+
+	Tripulacion                 0.00
+	Tiempo Extra                0.00
+
+	SubTotal Tripulacion        0.00       0.00          0.00         0.00 %
+
+
+	TOTAL                       0.00       0.00          0.00         0.00 %
+
+	Costo con beneficios                   0.00
+
+
+ - COSTO DE VENTAS -
+
+	Pollo con Hueso                    0.00				  0.00 %
+	Filete y Pollo Procesado           0.00				  0.00 %
+	Carne                              0.00				  0.00 %
+	Queso                              0.00				  0.00 %
+	Harinas y Especies                 0.00				  0.00 %
+	Aceites                            0.00				  0.00 %
+	Salsas y Aderezos                  0.00				  0.00 %
+	Ensaladas                          0.00				  0.00 %
+	Cubierta                           0.00				  0.00 %
+	Pan / Biscuits / Pasta             0.00				  0.00 %
+	Pure / Papas                       0.00				  0.00 %
+	Cafe y Postres                     0.00				  0.00 %
+	Refrescos                          0.00				  0.00 %
+	Empaque                            0.00				  0.00 %
+	                              ---------
+	Costo de Ventas                    0.00				  0.00 %
+
+	PCA                                0.00				  0.00 %
+	                              ---------
+	GAP                                0.00				  0.00 %
+
+
+ - PAGADOS DEL RESTAURANTE -
+
+	Creditos                           0.00
+	Miscelaneos                        0.00
+	Mantenim. de Edificicio            0.00
+	Mantenim. de Motos                 0.00
+	Mantenim. de Equipo                0.00
+	Gastos Restaurante                 0.00
+	IVA Acreditable                    0.00
+	                              ---------
+	  TOTAL                            0.00
+
+	Cancelaciones Hechas               0.00				  0.00 %
+	Cancelaciones No Hechas            0.00				  0.00 %
+	Total Reembolso Cliente            0.00
+
+
+ - EFICIENCIAS -          Vendido     Utilizado     No_Vendido   Eficiencia
+
+	Cabezas                  0.00          0.00          0.00         0.0 %
+	Big Crunch               0.00          0.00          0.00         0.0 %
+	Coronel                  0.00          0.00          0.00         0.0 %
+	Nuggets                  0.00          0.00          0.00         0.0 %
+	Hot Wings                0.00          0.00          0.00         0.0 %
+	Tiras                    0.00          0.00          0.00         0.0 %
+

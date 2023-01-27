@@ -1,0 +1,9 @@
+   reps = new Array(7);
+
+   reps[ 0]=new Rep("P","Plan de Preparacion","plan","D","0","/usr/bin/ph/prpptdpp.f");
+   reps[ 1]=new Rep("P","Pronost. Preensamble","fcast","D","0","/usr/bin/ph/phmpcgen.S");
+   reps[ 2]=new Rep("P","Pronostico Pedidos","gfcast","D","0","/usr/bin/ph/fcgcprnt.f");
+   reps[ 3]=new Rep("P","-Seguimiento Pedidos","sp","D","0","");
+   reps[ 4]=new Rep("P","-Historial Pedidos","hp","D","0","");
+   reps[ 5]=new Rep("P","-Historial por  Dia","hpd","D","0","");
+   reps[ 6]=new Rep("P","Pedido Sugerido","splan","S","0","/usr/bin/ph/invsugor.f");

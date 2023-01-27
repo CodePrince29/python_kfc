@@ -1,0 +1,18 @@
+
+
+gifname=                      , 
+titulo=, 
+xtitulo=, 
+ytitulo=,
+label=
+datos1
+datos2
+tipo = gdchart.GDC_BAR  , 
+colores =
+bg_color     = 0x202060       ,
+plot_color   = 0xC0C0C0       ,
+line_color   = BLANCO         ,
+xtitle_color = BLANCO         ,
+ytitle_color = BLANCO         ):
+
+

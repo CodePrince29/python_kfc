@@ -1,0 +1,9 @@
+   reps = new Array(7);
+
+   reps[ 0]=new Rep("M","Empleados Registrado","remp","D","0","/usr/bin/ph/tkclckin.f");
+   reps[ 1]=new Rep("M","-Poll&pay diario","nom","D","0","");
+   reps[ 2]=new Rep("M","*Horas utilizadas","hrsu","D","0","");
+   reps[ 3]=new Rep("M","*Horas extras","hrse","D","0","");
+   reps[ 4]=new Rep("M","-Poll&pay Semanal","snom","S","0","");
+   reps[ 5]=new Rep("M","*Horas util. Sem.","shrsu","S","0","");
+   reps[ 6]=new Rep("M","*Horas extras Sem.","shrse","S","0","");

@@ -1,0 +1,78 @@
+#! /usr/bin/env python
+# 
+# Generador de graficas tipo html. Se apoya en php para generar
+# las graficas. 
+#
+#
+import cgi
+import re
+import string
+import phdates
+import sales
+#import g_sales
+
+REPTDIR="/usr/fms/op/rpts/"
+
+
+def gen_grafica( filename, p_year, p_periodo, p_semana, p_dia):
+   if ( len(p_dia) <= 2 ):
+      n_year = int(p_year)
+      if ( n_year < 70 ) :
+         n_year = n_year + 2000
+      else :
+         n_year = n_year + 1900
+      fechas = phdates.yps( n_year,int(p_periodo),int(p_semana))
+      p_dia = phdates.y_m_d(fechas[1])
+   newname = REPTDIR + filename + "/" + p_dia
+   if ( filename == "sales" ):
+      try:
+         #f = open(newname)
+         #f.close()
+         #
+         # genera la grafica ya que el archivo si existe
+         #
+         print "Content-type: text/html\n"
+         print """<html><head><title>TriWeb Graficas</title></head><body
+bgcolor="#FFFFFF">"""
+         #g_sales.grafica_sales(newname)
+         #print "<p>1. voy a sales...", newname
+         htmlfile = sales.grafica_sales(newname)
+         #
+         # genera una hoja de paso hacia la grafica
+         #
+         #print """<font size=+3><br>&nbsp;&nbsp;Presione <a href="/devtricon/graf1.php3">aqu&iacute;</a> para ver la grafica </font></body></html>""" 
+         print """<font size=+3><br>&nbsp;&nbsp;Presione <a href="%s">aqu&iacute;</a> para ver la grafica </font></body></html>""" % ( htmlfile )
+
+
+      except:
+         print "Content-type: text/html\n"
+         print """<HTML><HEAD> <TITLE>TriWeb Graficas</TITLE> </HEAD>
+<BODY> <h1>No hay graficas definidas para %s </h1> """ % newname
+         print "</body></html>"
+   else:
+      print "Content-type: text/html\n"
+      print """<HTML><HEAD> <TITLE>TriWeb Graficas</TITLE> </HEAD>
+<BODY> <h1>2 No hay graficas definidas para %s </h1> </BODY> </HTML> """ % newname
+   
+
+def main():
+   form = cgi.FieldStorage()
+   p_dia     = form["txtDia"].value
+   p_periodo = form["txtPeriodo"].value
+   p_semana  = form["txtSemana"].value
+   p_year    = form["txtYear"].value
+   strReportes = form["txtReporte"].value
+   if p_dia     == 'N': p_dia = ""
+   if p_semana  == 'N': p_semana = ""
+   if p_periodo == 'N': p_periodo = ""
+   if p_year    == 'N': p_year = ""
+
+   lista = string.split(strReportes,':') 
+   if len(lista):
+      for j in lista :
+         gen_grafica(j, p_year, p_periodo, p_semana, p_dia)
+      
+
+#if ( __name__ == "__main__" ) :
+#   main()
+gen_grafica( 'sales' , "00", "04", "01", "N")

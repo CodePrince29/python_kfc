@@ -1,0 +1,55 @@
+A|    |REPTAM          |            |            |L.........|Costos Ameriserve   |          |D|pfsc                |          |NNN      |   |
+A|    |REPTAU          |            |            |L.........|Audit Eventos       |phaurp.s  |D|audit               |          |NN       |   |
+A|    |REPTCA          |            |            |LX........|Audit Quejas        |          |D|caud                |          |NN       |   |
+A|    |REPTCC          |            |            |LX.RMD....|Cuentas Client      |          |D|cts                 |          |NN       |   |
+A|    |REPTCE          |            |            |L.........|Comida Empleados    |phmealrp  |D|meal                |          |NN       |80 |
+A|    |REPTCL          |            |            |LX........|Listado1 Client     |          |D|list                |          |NN       |   |
+A|    |REPTCM          |            |            |L.........|Report Quejas       |          |D|coms                |          |NN       |   |
+A|    |REPTCR          |            |            |L R       |Reporte Cajero      |phcshrrp.s|D|cashier             |          |YN       |80 |
+A|    |REPTCS          |            |            |L.........|Audit Cajero        |phcashrp.s|D|cash                |          |NN       |   |
+A|    |REPTCW          |            |            |L.........|Quejas Semanal      |phccweek  |W|wcoms               |          |NN       |   |
+A|    |REPTCX          |            |            |L.........|Cancel Diarias      |phcanx.s  |D|canx                |          |YN       |   |
+A|    |REPTDC          |            |            |L         |Conteo Masas        |phdghcnt.s|D|doughcnt            |          |YNY      |80 |
+A|    |REPTDE          |            |            |L.........|Departamental       |mmix.s    |D|mmix                |          |NN       |80 |
+A|    |REPTDP          |            |            |L.........|Deposit Diarios     |phdprp    |D|deps                |          |NN       |   |
+A|    |REPTDR          |            |            |L.........|Audit Repartid      |phdvrp.s  |D|dr                  |          |YN       |   |
+A|    |REPTDS          |            |            |L.........|Estadist Diaria     |phwporst  |D|stat                |          |YN       |   |
+A|    |REPTDT          |            |            |L.........|Resum Tiemp Entr    |          |D|delt                |          |NN       |   |
+A|    |REPTFC          |            |            |L.........|Reporte de Pronost  |phmpcgen.s|D|fcast               |          |NN       |   |
+A|    |REPTFU          |            |            |L.........|Ordenes Futuras     |          |D|fu                  |          |NN       |80 |
+A|    |REPTGD          |            |            |L.........|Rep Coord Diar      |phgrrp    |D|gd                  |          |YN       |78 |
+A|    |REPTGP          |            |            |L.........|Rep Coord Perio     |phgrrp    |P|gp                  |          |YN       |78 |
+A|    |REPTGW          |            |            |L.........|Rep Coord Seman     |phgrrp    |W|gw                  |          |YN       |78 |
+A|    |REPTHR          |            |            |L.........|Detalle Horas       |phhourrp.s|D|hour                |          |NN       |80 |
+A|    |REPTIC          |            |            |L.........|Costo Productos     |icost.s   |D|icost               |          |NN       |   |
+A|    |REPTID          |            |            |L.........|Inventario Diario   |phcritrp  |D|crit                |          |NN       |80 |
+A|    |REPTKD          |            |            |          |Tickets Diarios     |phtktrp.s |D|tktrp               |          |NN       |80 |
+A|    |REPTLC          |            |            |L.........|Listado2 Client     |phcstpr.s |D|cst                 |          |NN       |   |
+A|    |REPTLU          |            |            |LX........|Reporte Comida      |          | |lunch               |          |NN       |   |
+A|    |REPTMN          |            |            |L.........|Estadist Gerente    |          |D|mngr                |          |NN       |   |
+A|    |REPTMQ          |            |            |L.........|Menumix Quetzal     |mquetzal.s|D|mquet               |          |NN       |80 |
+A|    |REPTMW          |            |            |L.........|Menumix Semanal     |mmqsem.s  |D|mmqs                |         N|N       8| 0 |
+A|    |REPTOD          |            |            |L..R......|Operac Diarias      |phosum    |D|dosum               |          |YN       |   |
+A|    |REPTOP          |            |            |L..R......|Operac Periodo      |phosum    |P|posum               |          |NN       |   |
+A|    |REPTOW          |            |            |L..R......|Operac Semanal      |phosum    |W|wosum               |          |YN       |   |
+A|    |REPTPF          |            |            |L.........|Pronost Preensam    |phpreassm |D|pres                |          |YN       |   |
+A|    |REPTPG          |            |            |L.........|Reporte Pagos       |          |D|pagos               |          |NNN      |   |
+A|    |REPTPM          |            |            |L         |Mix Productos       |phprodmx.s|D|prodmix             |          |NNN      |80 |
+A|    |REPTPR          |            |            |L.........|Rep Produccion      |phprdrp.s |D|prod                |          |NN       |110|
+A|    |REPTPS          |            |            |L.........|Estadist Period     |phwporst  |P|pstat               |          |NN       |   |
+A|    |REPTPT          |            |            |L.........|Ventas p/Segmen     |phdayprt.s|D|dprt                |          |NN       |78 |
+A|    |REPTRC          |            |            |L         |Reporte ROC         |roc.s     |W|roc                 |          |YN       |132|
+A|    |REPTRL          |            |            |LX........|Info Version        |          | |rl                  |RL        |NN       |   |
+A|    |REPTSA          |            |            |L.........|Rep Ventas Sem      |phasrp    |W|sales               |          |YN       |132|
+A|    |REPTSC          |            |            |L.........|Servicio Escuel     |phsclrp   |D|sfs                 |          |NN       |80 |
+A|    |REPTSD          |            |            |L.........|Ventas Diarias      |phasrp1.s |D|dsales              |          |YN       |80 |
+A|    |REPTSS          |            |            |L.........|Ventas p/Vended     |phsasrvr.s|D|ssrvr               |          |NN       |100|
+A|    |REPTTD          |            |            |L.........|Reporte Impuest     |phtaxrp   |D|dtax                |          |NN       |78 |
+A|    |REPTTR          |            |            |L.........|Utiliz Mesas        |phtblrp.s |D|util                |          |NN       |78 |
+A|    |REPTUG          |            |            |L.........|Tickets Abiert      |phupgckrp |D|ug                  |          |NN       |80 |
+A|    |REPTUT          |            |            |L.........|Tickets Descon      |phuntrp   |D|untk                |          |YN       |   |
+A|    |REPTVD          |            |            |L.........|Entregas Diaria     |phdvrp2   |D|vd                  |          |YN       |78 |
+A|    |REPTVP          |            |            |L.........|Entregas Period     |phdvrp2   |P|vp                  |          |NN       |78 |
+A|    |REPTVW          |            |            |L.........|Entregas Semana     |phdvrp2   |W|vw                  |          |YN       |78 |
+A|    |REPTWM          |            |            |L.........|Meritos Semanal     |phcsweek  |W|wcsrp               |          |NN       |   |
+A|    |REPTWS          |            |            |L.........|Estadist Semana     |phwporst  |W|wstat               |          |YN       |   |

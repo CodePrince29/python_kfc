@@ -1,0 +1,53 @@
+E, Entregas Diaria,     vd,      D,   0,    phdvrp2     
+E, Entregas Period,     vp,      P,   0,    phdvrp2     
+E, Entregas Semana,     vw,      S,   0,    phdvrp2     
+E, Estadist Diaria,     stat,    D,   0,    phwporst    
+E, Estadist Period,     pstat,   P,   0,    phwporst    
+E, Estadist Semana,     wstat,   S,   0,    phwporst    
+E, Listado1 Client,     list,    D,   0,                
+E, Listado2 Client,     cst,     D,   0,    phcstpr.s   
+E, Menumix Quetzal,     mquet,   D,   0,    mquetzal.s  
+E, Menumix Semanal,     mmqs,    D,   0,    mmqsem.s    
+E, Mix Productos,       prodmix, D,   0,    phprodmx.s  
+E, Rep Coord Diar,      gd,      D,   0,    phgrrp      
+E, Rep Coord Perio,     gp,      P,   0,    phgrrp      
+E, Rep Coord Seman,     gw,      S,   0,    phgrrp      
+E, Resum Tiemp Entr,    delt,    D,   0,                
+E, Servicio Escuel,     sfs,     D,   0,    phsclrp     
+E, Utiliz Mesas,        util,    D,   0,    phtblrp.s   
+E, Ventas p/Segmen,     dprt,    D,   0,    phdayprt.s  
+E, Ventas p/Vended,     ssrvr,   D,   0,    phsasrvr.s  
+I, Conteo Masas,        doughcnt,D,   0,    phdghcnt.s  
+I, Costo Productos,     icost,   D,   0,    icost.s     
+I, Costos Ameriserve,   pfsc,    D,   0,                
+I, Formulario Invent,   iform,   D,   0,    invptall    
+I, Inventario Diario,   crit,    D,   0,    phcritrp    
+I, Inventario Periodico,pinv,    P,   0,    invpaksh    
+I, Inventario,          inv,     S,   0,                
+I, PCA,                 pca,     S,   0,                
+I, Uso ideal,           iuse,    D,   0,    invpiuse    
+M, Empleados Registrado,remp,    D,   0,    tkckkin     
+M, Poll&pay Semanal,    snom,    D,   0,                
+M, Poll&pay Semanal,    snom,    S,   0,                
+M, Poll&pay Semanal,    snom,    W,   0,                
+M, Poll&pay diario,     nom,     D,   0,                
+P, Pedido Sugerido,     splan,   D,   0,    invsugar    
+P, Plan de Preparacion, pplan,   D,   0,    prpptdpp    
+P, Pronostico Pedidos,  gfcast,  D,   0,    fcgeprnt    
+P, Reporte de Pronost,  fcast,   D,   0,    phmpcgen.s  
+V, Audit Cajero,        cash,    D,   0,    repcaja.s   
+V, Audit Eventos,       audit,   D,   0,    phaurp.s    
+V, Cancel Diarias,      canx,    D,   0,    phcanx.s    
+V, Comida Empleados,    meal,    D,   0,    phmealrp    
+V, Consolidado Operacio,roc,     S,   0,    roc.s       
+V, Deposit Diarios,     deps,    D,   0,    phdprp      
+V, Operac Diarias,      dosum,   D,   0,    phosum      
+V, Operac Periodo,      posum,   P,   0,    phosum      
+V, Operac Semanal,      wosum,   S,   0,    phosum      
+V, Reporte Cajero,      cashier, D,   0,    phcshrrp.s  
+V, Reporte Impuest,     dtax,    D,   0,    phtaxrp     
+V, Reporte Pagos,       pagos,   D,   0,                
+V, Tickets Abiert,      ug,      D,   0,    phupgckrp   
+V, Tickets Descon,      untk,    D,   0,    phuntrp     
+Z, Ventas Diarias,      dsales,  D,   0,    phasrp1.s   
+Z, Ventas Semanales,    sales,   S,   0,    phasrp1.s   

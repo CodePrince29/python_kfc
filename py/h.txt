@@ -1,0 +1,16 @@
+   reps = new Array(14);
+
+   reps[ 0]=new Rep("H","Entregas Diaria","vd","D","0","/usr/bin/ph/phdvrp2.S");
+   reps[ 1]=new Rep("H","Audit Repartid","dr","D","0","/usr/bin/ph/phdvrp.S");
+   reps[ 2]=new Rep("H","Rep Coord Diar","gd","D","0","/usr/bin/ph/phgrrp.S");
+   reps[ 3]=new Rep("H","*Audit Home Serv","auhs","D","0","");
+   reps[ 4]=new Rep("H","Tickets Fuera Area","untk","D","0","/usr/bin/ph/phuntrp.S");
+   reps[ 5]=new Rep("H","-Resum Tiemp Entr","delt","D","0","");
+   reps[ 6]=new Rep("H","-Listado1 Client","list","D","0","");
+   reps[ 7]=new Rep("H","Listado2 Client","cst","D","0","/usr/bin/ph/phcstpr.S");
+   reps[ 8]=new Rep("H","Entregas Semana","vw","S","0","/usr/bin/ph/phdvrp2.S");
+   reps[ 9]=new Rep("H","*Eficiencia Repart.","er","S","0","");
+   reps[10]=new Rep("H","Rep Coord Seman","gw","S","0","/usr/bin/ph/sphgrrp.S");
+   reps[11]=new Rep("H","Entregas Period","vp","P","0","/usr/bin/ph/phdvrp2.S");
+   reps[12]=new Rep("H","*Eficiencia Repart.","per","P","0","");
+   reps[13]=new Rep("H","Rep Coord Perio","gp","P","0","/usr/bin/ph/pphgrrp.S");

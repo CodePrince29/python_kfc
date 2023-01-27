@@ -1,0 +1,12 @@
+   reps = new Array(10);
+
+   reps[ 0]=new Rep("E","Menumix Quetzal","mquet","D","0","/usr/bin/ph/mquetzal.S");
+   reps[ 1]=new Rep("E","Estadist Diaria","stat","D","0","/usr/bin/ph/phwporst.S");
+   reps[ 2]=new Rep("E","Operac Diarias","dosum","D","0","/usr/bin/ph/phosum.S");
+   reps[ 3]=new Rep("E","-Mix Productos","prodmix","D","0","/usr/bin/ph/phprodmx.S");
+   reps[ 4]=new Rep("E","Menumix Semanal","mmqs","S","0","/usr/bin/ph/mmqsem.S");
+   reps[ 5]=new Rep("E","Estadist Semanal","wstat","S","0","/usr/bin/ph/sphwporst.S");
+   reps[ 6]=new Rep("E","Operac Semanal","wosum","S","0","/usr/bin/ph/sphosum.S");
+   reps[ 7]=new Rep("E","ROC-Consolidado Ope.","roc","S","0","/usr/bin/ph/roc.S");
+   reps[ 8]=new Rep("E","Estadist Period","pstat","P","0","/usr/bin/ph/pphwporst.S");
+   reps[ 9]=new Rep("E","Operac Periodo","posum","P","0","/usr/bin/ph/pphosum.S");

@@ -1,0 +1,67 @@
+E, Departamental      ,      mmix,  D,  2,            /usr/bin/ph/mmix.S, 132
+E, Estadist Diaria    ,      stat,  D,  2,        /usr/bin/ph/phwporst.S, 80
+E, Estadist Semanal   ,     wstat,  S,  2,        /usr/bin/ph/shwporst.S, 132
+E, Estadist Period    ,     pstat,  P,  1,         /usr/bin/ph/pwporst.S, 132
+E, Menumix Quetzal    ,     mquet,  D,  1,        /usr/bin/ph/mquetzal.S, 80
+E, Menumix Semanal    ,      mmqs,  S,  1,          /usr/bin/ph/mmqsem.S, 132
+E, Mix por Cajero     ,      nmix,  D,  1,            /usr/bin/ph/nmix.s, 132
+E, Operac Diarias     ,     dosum,  D,  2,          /usr/bin/ph/resopD.s, 132
+V, Resum. Operac Periodo,     posum,  P,  1,         /usr/bin/ph/pphosum.S, 132
+E, ROC-Consolidado Ope.,       roc,  S,  1,             /usr/bin/ph/roc.S, 132
+E, Roc de KFC          ,      kroc,  S,  1,            /usr/bin/ph/kroc.s, 132
+E,*Roc de KFC Periodico,     pkroc,  P,  4,           /usr/bin/ph/pkroc.s, 132
+E,Mix Semanal x Produc,     kmmqs,  S,  1,         /usr/bin/ph/kmmqsem.S, 132
+E,Mix Diario x Produc,     kmmqd,  D,  1,         /usr/bin/ph/kmmqdia.S, 132
+E,Ventas p/Segmen     ,      dprt,  D,  1,        /usr/bin/ph/phdayprt.S, 132
+H, Audit Repartid     ,        dr,  D,  1,          /usr/bin/ph/phdvrp.S, 80
+H, Resumen Serv Diario,        vd,  D,  1,        /usr/bin/ph/phdvrp2.S,80
+H, Listado2 Client    ,       cst,  D,  2,         /usr/bin/ph/phcstpr.S, 80
+H, Mapa de Calles     ,      mapa,  D,  0,            /usr/bin/ph/mapa.s, 80
+H, Mapa por Calles    , mapxcalle,  D,  0,        /usr/bin/ph/mapxcall.s, 80
+H, Reporte de Vendedores,      ve,  D,  0,          /usr/bin/ph/phvendD.s,80
+H, Rep Coord Diar,             gd,  D,  0,           /usr/bin/ph/phgrrp.S,80
+H, LLamadas Tel. ,           conm,  D,  0,            /usr/bin/ph/conm.S, 80
+H, Resumen Llamadas,        rconm,  D,  0,           /usr/bin/ph/rconm.S, 80
+H, Eficiencia llamadas,    callef,  D,  0,         /usr/bin/ph/phcallD.s, 80
+
+H, Resumen Serv Semana,     vw,     S,  0,         /usr/bin/ph/phdvrp2.S, 132
+H, Mercadotecnia Local,     ml,     S,  0,        /usr/bin/ph/phRpGrid.S, 80
+H, LLamadas Tel. ,       wconm,     S,  0,           /usr/bin/ph/wconm.S, 80
+
+H, Resumen Serv Period,     vp,     P,   0,        /usr/bin/ph/phdvrp2.S, 132
+
+I, Costo Prod.(Receta),     icost,  D,  1,           /usr/bin/ph/icost.S, 80
+I, Costos Ameriserve  ,      pfsc,  S,  4,          /usr/bin/ph/phpfsc.s, 132
+I, Detalle inventario ,      idet,  S,  1,            /usr/bin/ph/idet.s, 132
+I, Inventario Criticos,      crit,  D,  2,        /usr/bin/ph/phcritrp.S, 132
+I, PCA                ,       pca,  S,  1,             /usr/bin/ph/pca.f, 132
+I, Transferencias     ,      tran,  D,  4,           /usr/bin/ph/trans.s, 80
+I, Uso ideal          ,      iuse,  D,  1,        /usr/bin/ph/invpiuse.f, 80
+I,Reporte de Inventario,      kinv,  S,  1,            /usr/bin/ph/kinv.s, 132
+I,Orden de Compra     ,      order,  D,  1,            /usr/bin/ph/order3w.s, 132
+I,Reporte de Recepciones,  reception,  D,  1,          /usr/bin/ph/recep3w.s, 132
+
+M, Empleados Registrado,      remp,  D,  1,        /usr/bin/ph/tkclckin.f, 80
+M, Poll&pay Semanal   ,      snom,  S,  1,        /usr/bin/ph/gppprepA.s, 132
+M, Poll&pay diario    ,       nom,  D,  1,         /usr/bin/ph/gdpprep.S, 80
+M, Reporte de Cambios ,     tkchg,  S,  1,        /usr/bin/ph/tkchgrpt.s, 80
+P, Pronost. Preensamble,     fcast,  D,  1,        /usr/bin/ph/phmpcgen.S, 80
+V, Audit Cajero       ,      cash,  D,  1,        /usr/bin/ph/phcashrp.S, 80
+V, Cancel Diarias     ,      canx,  D,  1,          /usr/bin/ph/phcanx.S, 80
+V, Reporte Pagos      ,     pagos,  S,  4,         /usr/bin/ph/phpagos.s, 132
+V, Ventas Diarias     ,    dsales,  D,  2,         /usr/bin/ph/phasrp1.S, 80
+V, Ventas Semanales   ,     sales,  S,  1,          /usr/bin/ph/phasrp.S, 140
+V, Ventas por Hora    ,      hour,  D,  1,        /usr/bin/ph/phhourrp.S, 140
+V, Venta Pollo x hr. ,      vpxh,  D,  1,        /usr/bin/ph/vpxh.s, 80
+V, Venta PolloXhr. Sem,     wvpxh,  S,  1,        /usr/bin/ph/wvpxh.s, 80
+V, Resumen de Operac. ,    kdosum,  D,  1,        /usr/bin/ph/resopD.s, 132
+V, Resumen de Operac. ,    kwosum,  S,  1,        /usr/bin/ph/resopS.s, 132
+E, Tiempo de Servicio ,    servtm,  D,  2,         /usr/bin/ph/servtime.s, 80
+E, Reporte del Timer  ,     timer,  D,  2,         /usr/bin/ph/timer.S, 80
+E, Reporte del Timer  ,    wtimer,  S,  2,         /usr/bin/ph/timer.S, 80
+E, Reporte del Timer  ,    ptimer,  P,  2,         /usr/bin/ph/timer.S, 80
+################################################################################
+A, Notas de Consumo (ND)   , dfact,  D,  0,  /usr/bin/ph/dfact.s,     132
+A, Notas de Consumo (NS)   , wfact,  S,  0,  /usr/bin/ph/wfact.s,     132
+A, Retiros Parciales       , retpar, D,  0,  /usr/bin/ph/phretpar.s,   80
+A, Retiros Parciales USD   , phrp_usd, D,  0,  /usr/bin/ph/phrp_usd.s,   80
