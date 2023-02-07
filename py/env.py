@@ -7,6 +7,7 @@ import string
 
 fms_env="/usr/fms/.xenv"
 sus_env="/usr/fms/op/bin/.xenv"
+psql_env= "/usr/fms/pg-admin/bin/.xenv"
 
 def put_env(env_file):
    f = open(env_file)
